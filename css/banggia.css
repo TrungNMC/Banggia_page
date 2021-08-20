@@ -252,13 +252,7 @@
 220deg
 ,#F8C600 26%,#FF930B 69%);
 }
-.img-contact {
-    background-color:#264a99;
-    max-width: 100%;
-    position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+
 .form-contact {
     position: relative;
     background-color: #ffe1c3;
