@@ -1,0 +1,406 @@
+.btn-heart {
+    transition: all 0.9s linear;
+}
+.btn-heart:hover {
+    animation: animation-pulse;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes animation-pulse {
+    
+    0%{
+        background-color: 
+        #fc8300; 
+        transform: scale(1);
+    }
+    50%{
+        background-color: 
+        #fc8300; 
+        transform: scale(1.2);
+    }
+    100%{
+        background-color: 
+        #fc8300; 
+        transform: scale(1);
+    }
+}
+    
+.btn-text{
+    transition: all 0.3s linear;
+}
+.btn-text:hover {
+    transform: scale(1.1);
+}
+.btn-orange {
+    background-color: 
+    #fc8300;
+    border-radius: 20px;
+    font-weight: 600;
+}
+.fw-600 {
+    font-weight: 600;
+}
+/* Slider */
+.slider-title{
+    position: relative;
+    font-family: "Nunito",Sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.slider-content {
+    position: relative;
+    font-family: "Poppins",Sans-serif;
+    font-size: 16px;
+    line-height: 1.7em;
+    letter-spacing: .5px;
+}
+.section-bg {
+    padding: 100px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://simpleweb.cdn.vccloud.vn/wp-content/uploads/2020/06/simple-page-32.jpg);
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.8;
+    background-color: transparent;
+    background-image: linear-gradient(
+180deg
+,#FF930B 29%,#F8C600 100%);
+}
+.slider-body {
+    transition: all .4s linear;
+}
+.slider-body:hover {
+    transform: scaleY(1.1);
+    transform: scaleX(1.1);
+}
+/* Price table */
+.sign-in {
+    transition: all .2s ease-in-out;
+}
+.sign-in:hover {
+    transform: scale(1.1);
+}
+.table-col-1 {
+    background-color: #3C74CD !important;
+    vertical-align: middle;
+}
+
+.table-col-2 {
+    background-color: #28b952 !important;
+}
+
+.table-col-3 {
+    background-color: #0082f4 !important;
+    position: relative;
+    overflow: hidden;
+}
+
+.price-table__ribbon-inner {
+    position: absolute;
+    
+    padding: 1px 30px 1px 30px;
+    font-size: 10px;
+    background-color: #FF512F;
+   top: 0;
+   right: 0;
+   transform: translateY(98%) translateX(-50%) translateX(80px) rotate( 
+45deg
+ );
+}
+
+.table-col-4 {
+    background-color: #894cf9 !important;
+}
+
+.price-table__heading {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.price-table__subheading {
+    line-height: 1em;
+    font-weight: 400;
+    font-size: 20px;
+}
+.heading-title-h,
+.heading-title {
+    font-family: "Raleway",Sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;  
+}
+.heading-title {
+    text-align: center;
+}
+.heading-title-b {
+    color: #FFF;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+.icons-check {
+    text-align: center;
+    color: #4caf50;
+    font-size: 20px;
+}
+.icons-minus {
+    text-align: center;
+    color: #ff7400;
+    font-size: 20px;
+}
+.table {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    overflow: hidden;
+}
+.heading-title-top {
+    color: #4054B2;
+    font-family: "Nunito",Sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    padding: 40px 0 40px;
+    margin: 0;
+}
+.star {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin: auto;
+}
+.star:before, .star:after{
+    content: "";
+    flex: 1 1;
+    border-top: 2px solid #FF7519;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.star:before {
+    margin-right: 10px
+}
+.star:after {
+    margin-left: 10px
+}
+.heading-title-top-o {
+    color: #FF7400;
+    font-family: "Nunito",Sans-serif;
+    font-size: 36px;
+    line-height: 38px;
+    padding: 30px 0;
+}
+/* Bank */
+.card {
+    border-radius: 20px;
+}
+
+.card-title {
+    padding-bottom: 15px;
+    align-items: center;
+}
+.bank-name {
+    font-family: "Nunito",Sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+.bank-text {
+    font-family: "Nunito",Sans-serif;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+.bank-info {
+   padding: 5px 10px;
+}
+.image-box-title {
+    font-family: "Nunito",Sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+.box-bank-info ul {
+    list-style: none;
+}
+.box {
+    justify-content: center;
+}
+
+/* Slider-contact */
+.contact {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://simpleweb.cdn.vccloud.vn/wp-content/uploads/2020/06/simple-page-32.jpg);
+}
+.overlay-contact {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.8;
+    background-color: transparent;
+    background-image: linear-gradient(
+220deg
+,#F8C600 26%,#FF930B 69%);
+}
+.img-contact {
+    background-color:#264a99;
+    max-width: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.form-contact {
+    position: relative;
+    background-color: #ffe1c3;
+}
+.form-control {
+    background-color: #FFF;
+    border: 1px solid #818a91;
+    border-width: 1px 1px 1px 1px;
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px;
+    margin: 10px;
+}
+.btn-confirm {
+    border-radius: 20px;
+    border: none;
+    background-color: #FF930B;
+    font-weight: 600;
+    font-size: 18px;
+    padding-left: 4px;
+    padding-right: 4px;
+    min-width: 130px;
+    transition: all 0.3s linear;
+}
+.btn-confirm:hover {
+    transform: scale(1.1);
+}
+.bg-opa{
+    background-color: #ffe1c3;
+}
+.custom-input input{
+    border-radius: 5px;
+    padding: 2px;
+}
+.contact .container{
+    position: relative;
+    z-index: 1;
+}
+.contact .container .shadow-contact{
+    box-shadow: 1px 1px 7px #333;
+    border-radius: 4px;
+}
+.elementor-shape svg{
+    display: block;
+    width: calc(100% + 1.3px);
+    position: relative;
+    left: 0%;
+    height: 40px;
+}
+.elementor-shape {
+    overflow: hidden;
+    position: absolute;
+    /* left: -10%; */
+    width: 100%;
+    line-height: 1;
+    direction: ltr;
+}
+.elementor-shape-top {
+    top: -1px;
+}
+
+@media (max-width:1200px){
+    .text-font-size{
+        font-size: 20px !important;
+    }
+}
+
+@media (max-width: 576px) { 
+    .section-bg {
+        padding: 40px;
+    }
+    .slider-title {
+        font-size: 22px;
+    }
+    .slider-content {
+        font-size: 10px;
+    }
+    .img-pay {
+        display: none;
+    }
+    .heading-title-top {
+        font-size: 15px;
+        padding: 0!important;
+    }
+    .heading-title-top-o {
+        font-size: 22px;
+    }
+ }
+ @media (max-width: 768px) { 
+    .shadow-contact {
+        margin: 0!important;
+    }
+    .form-control{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .custom-input .row.px-4{
+        padding-left: 0 !important;
+        padding-right: 0!important;
+    }
+    .custom-input .row.px-4 .col-lg-12{
+        padding-right: 1% !important;
+    }
+    .d-flex-mobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+ }
+.img_main {
+    display: none;
+}
+.img_second {
+    display: none;
+}
+.btn_moblie {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 15px;
+    background-color: #FC8300;
+    border-radius: 5px;
+    font-family: "Nunito",Sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 20%;
+    display: none;
+}
+ @media (max-width: 1024px) { 
+    .table {
+        display: none;
+    }
+    .img_main {
+        display: block;
+    }
+    .img_second {
+        display: block;
+    }
+    .btn_moblie {
+        display: block;
+        min-width: 40%!important;
+    }
+ }
+ /* Animation */
